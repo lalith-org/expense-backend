@@ -2,4 +2,4 @@ name: Continuous Integration
 on: [push]
 jobs:
   calling-ci-reusable:
-    uses: lalith2211/github-reusable-workflows/.github/workflows/ci.yml@main
+    uses: lalith-org/github-reusable-workflows/.github/workflows/ci.yml@main
