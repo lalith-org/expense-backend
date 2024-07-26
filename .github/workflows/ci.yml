@@ -1,5 +1,8 @@
 name: Continuous Integration
 on: [push]
 jobs:
-  calling-ci-reusable:
+  call-continuous-integration-reusable:
     uses: lalith-org/github-reusable-workflows/.github/workflows/ci.yml@main
+    with:
+      project_name: expense-backend
+    secrets: inherit
