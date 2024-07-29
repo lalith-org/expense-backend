@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
 
-
 // ROUTES FOR OUR API
 // =======================================================
 
