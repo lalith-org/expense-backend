@@ -1,6 +1,6 @@
 node('ci-server'){
     stage('lint code') {
-        print 'liniting code'
+        sh 'env'
     }
     stage('code review') {
         print 'sonarqube code review'
