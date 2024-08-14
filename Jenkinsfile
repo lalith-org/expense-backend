@@ -1,4 +1,5 @@
-node('ci-server')
+node('ci-server'){
     stage('lint code') {
         print 'OK'
     }
+}
